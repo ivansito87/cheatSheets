@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# Inteli or WebStorm 
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+#.DS_Store file
+.DS_Store/
