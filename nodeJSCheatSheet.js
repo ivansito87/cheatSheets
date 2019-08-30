@@ -326,7 +326,7 @@ fs.read(fd, buffer, offset, length, position, callback);   // Read data from the
 fs.readSync(fd, buffer, offset, length, position);         // Synchronous version of fs.read. Returns the number of bytesRead.
 fs.readFile(filename, [options], callback);                // Asynchronously reads the entire contents of a file.
 fs.readFileSync(filename, [options]);                      // Synchronous version of fs.readFile. Returns the contents of the filename. If the encoding option is specified then this function returns a string. Otherwise it returns a buffer.
-
+                          
 fs.writeFile(filename, data, [options], callback);   // Asynchronously writes data to a file, replacing the file if it already exists. data can be a string or a buffer.
 fs.writeFileSync(filename, data, [options]);         // The synchronous version of fs.writeFile.
 fs.appendFile(filename, data, [options], callback);  // Asynchronously append data to a file, creating the file if it not yet exists. data can be a string or a buffer.
